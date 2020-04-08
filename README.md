@@ -58,20 +58,20 @@ be shredded. Default used filelister is @kxghnpm/kx-file-lister-sync with the fo
 
 Returns an object with following functions:
 
-#### shredOne
+### shredOne
 
 Synchronously shreds a file. Args:
 * `targetFilePath` path to file to be shredded 
 * `unlink` whether the file should also be unlinked. False by default. 
 
-#### shredAll
+### shredAll
 
 Synchronously shreds files in (sub)folder(s) or file paths listed in array.
 * `target` directory path or array of file paths
 * `opts.recursive` whether also files in subdirectories should be shredded. Defaults to false
 * `opts.unlink` whether the files should also be unlinked. False by default
 
-#### getTargets
+### getTargets
 
 Lists targets that would be shredded by shredAll function. Useful for prompting user before shredding recursively.
 * `target` target path to target directory or array of file paths
