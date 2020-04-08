@@ -1,0 +1,12 @@
+{
+  "name": "@kxghnpm/kx-shredder-sync",
+  "version": "1.0.0",
+  "description": "Simple synchronous file shredder",
+  "main": "index.js",
+  "keywords": ["fileshredder","shredder"],
+  "author": "github.com/kxgh",
+  "license": "ISC",
+  "dependencies": {
+    "@kxghnpm/kx-file-lister-sync": "^1.0.2"
+  }
+}
